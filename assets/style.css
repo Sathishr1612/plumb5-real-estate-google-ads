@@ -813,7 +813,7 @@ h6 {
 /* ── SECTION 4: DASHBOARD ── */
 .dashboard-section {
   background: var(--navy);
-  padding: 100px 80px;
+  padding: 100px 20px;
   position: relative;
   overflow: hidden;
 }
@@ -1694,6 +1694,7 @@ h6 {
 
 
 /*============= LOGOS =============*/
+/*============= CLIENT LOGOS =============*/
 
 .client-logo-section {
   padding: 40px 0;
@@ -1711,9 +1712,9 @@ h6 {
 .logo-track {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 18px;
   width: max-content;
-  animation: scrollLogos 35s linear infinite;
+  animation: scrollLogos 40s linear infinite;
 }
 
 .logo-track:hover {
@@ -1721,28 +1722,28 @@ h6 {
 }
 
 .logo-card {
-  width: 240;
-  height: 110;
+  width: 220px;
+  height: 95px;
   background: #fff;
   border: 1px solid #ececec;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 15px;
+  padding: 10px 15px;
   flex-shrink: 0;
   transition: all 0.3s ease;
 }
 
 .logo-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
   border-color: #dcdcdc;
 }
 
 .logo-card img {
-  max-width: 200px;
-  max-height: 80px;
+  max-width: 170px;
+  max-height: 65px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -1772,14 +1773,14 @@ h6 {
   }
 
   .logo-card {
-    width: 210px;
-    height: 95px;
-    padding: 10px 12px;
+    width: 190px;
+    height: 85px;
+    padding: 10px;
   }
 
   .logo-card img {
-    max-width: 170px;
-    max-height: 65px;
+    max-width: 145px;
+    max-height: 55px;
   }
 }
 
@@ -1788,27 +1789,44 @@ h6 {
 @media (max-width: 768px) {
 
   .client-logo-section {
-    padding: 30px 0 30px 0;
+    padding: 30px 0;
   }
 
   .logo-track {
     gap: 14px;
+    animation: scrollLogos 30s linear infinite;
   }
 
   .logo-card {
-    width: 180px;
-    height: 90px;
-    padding: 12px;
+    width: 160px;
+    height: 75px;
+    padding: 8px;
   }
 
-    .logo-card img {
-    width: 100%;
-    max-width: 150px;
-    max-height: 60px;
-    height: auto;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
+  .logo-card img {
+    max-width: 120px;
+    max-height: 45px;
+  }
+}
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 480px) {
+
+  .logo-track {
+    gap: 12px;
+    animation: scrollLogos 25s linear infinite;
+  }
+
+  .logo-card {
+    width: 145px;
+    height: 70px;
+    padding: 6px;
+  }
+
+  .logo-card img {
+    max-width: 110px;
+    max-height: 40px;
   }
 }
 
