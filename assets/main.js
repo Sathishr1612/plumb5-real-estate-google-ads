@@ -127,7 +127,6 @@ if (metricsSection) counterObserver.observe(metricsSection);
         if (e.key === 'Escape') closeVideo();
       });
 
-
       /* ── SCROLL REVEAL ── */
       var items = document.querySelectorAll('.reveal');
 
