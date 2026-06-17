@@ -11,10 +11,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap"
     rel="stylesheet">
   <link href="assets/style.css" rel="stylesheet">
+  <style>
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
 
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -59,7 +71,7 @@
           <h1 class="fade-up visible" style="transition-delay:0.1s">
             Convert More Property
             Enquiries Into <em>Site Visits</em>
-            & Sales
+            &amp; Sales
           </h1>
 
           <p class="hero-sub fade-up visible" style="transition-delay:0.2s">
@@ -73,13 +85,6 @@
               Book My Real Estate Growth Consultation
             </a>
           </div>
-
-          <!-- <div class="trust-row fade-up visible" style="transition-delay:0.4s">
-          <div class="trust-item"><i class="fa-solid fa-check"></i> Buyer Intent Tracking</div>
-          <div class="trust-item"><i class="fa-solid fa-check"></i> WhatsApp Automation</div>
-          <div class="trust-item"><i class="fa-solid fa-check"></i> Lead Scoring</div>
-          <div class="trust-item"><i class="fa-solid fa-check"></i> Campaign Attribution</div>
-        </div> -->
         </div>
 
         <!-- Right Float Cards -->
@@ -140,19 +145,7 @@
     </div>
   </section>
 
-  <style>
-    @keyframes slideIn {
-      from {
-        opacity: 0;
-        transform: translateX(30px);
-      }
 
-      to {
-        opacity: 1;
-        transform: translateX(0);
-      }
-    }
-  </style>
 
   <!-- ╔══════════════════════════════════════╗ -->
   <!--   SECTION LOGO    -->
@@ -466,7 +459,7 @@
   <!-- ╔══════════════════════════════════════╗ -->
   <!--   SECTION 5 — USE CASES                 -->
   <!-- ╚══════════════════════════════════════╝ -->
-   
+
   <section class="usecases-section">
     <div class="container">
       <div class="text-center mb-5 fade-up">
@@ -675,9 +668,11 @@
           </div>
         </div>
 
-        <div class="col-lg-6 offset-lg-1 fade-up" style="transition-delay:0.1s">
-          <div class="form-wrapper">
-            <div id="dvPlumb5InPageScript3189" plumb5="Plumb5InPageForms" plumb5formidentifier="3189"></div>
+        <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
+          <div class="form-placewrap">
+            <div id="dvPlumb5InPageScript3189" plumb5="Plumb5InPageForms" plumb5formidentifier="3189">
+
+            </div>
           </div>
         </div>
 
@@ -803,6 +798,17 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="assets/main.js"></script>
 
+  <!-- Start of plumb5 Embed Code -->
+  <script type="text/javascript">
+    (function () {
+      var p5 = document.createElement('script');
+      p5.type = 'text/javascript';
+      p5.src = 'https://src.plumb5.com/PG_plumb5_com_186.js';
+      var p5s = document.getElementsByTagName('script')[0];
+      p5s.parentNode.insertBefore(p5, p5s);
+    })();
+  </script>
+  <!-- End of plumb5 Embed Code -->
 
 </body>
 

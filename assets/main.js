@@ -150,5 +150,3 @@ if (metricsSection) counterObserver.observe(metricsSection);
 
     })();
 
-
-        /* -==LOGO== */
